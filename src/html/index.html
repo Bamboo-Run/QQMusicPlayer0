@@ -1,15 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no,minimum-scale=1,maximum-scale=1">
+    <title></title>
     <link rel="stylesheet" href="../css/index.css">
 </head>
+
 <body>
-    <div></div>
-    <img src="../images/desktopBg.jpg" alt="">
+    <div id="wrapper">
+        <!-- 大图区域 -->
+        <div class="songImg">
+            <img src="../source/song_1.jpg" alt="">
+        </div>
+        <!-- 歌曲介绍 -->
+        <div class="songInfo">
+            <h1 class="title">听妈妈的话</h1>
+            <div class="singer">周杰伦</div>
+            <div class="album">依然范特西</div>
+        </div>
+        <!-- 滚动条区域 -->
+        <div class="progress">
+            <div class="startTime">00:00</div>
+            <div class="drag">
+                <div class="circle"></div>
+                <div class="frontBg"></div>
+                <div class="backBg"></div>
+            </div>
+            <div class="endTime">00:00</div>
+        </div>
+        <!-- 选项列表 -->
+        <ul class="control">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        <!-- 播放列表 -->
+        <dl class="list">
+            <dt class="title">播放列表</dt>
+            <dd>听妈妈的话</dd>
+            <dd>听妈妈的话</dd>
+            <dd>听妈妈的话</dd>
+            <dd class="close">关闭</dd>
+        </dl>
+    </div>
+
+
+    <script src="../js/zepto.min.js"></script>
+    <script src="../js/gaussBlur.js"></script>
     <script src="../js/index.js"></script>
 </body>
-</html>
+<html>
